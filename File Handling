@@ -1,0 +1,10 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+    ofstream file("data.txt");
+    file << "Hello, This is my C++ File Handling Program.";
+    file.close();
+    cout << "Data written to file successfully!";
+    return 0;
+}
